@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 var envConfig = {
-    PORT: Number(process.env.PORT)
+    PORT: Number(process.env.PORT),
+    OMDB_API_URL: process.env.OMDB_API_URL
 };
 exports.default = envConfig;
