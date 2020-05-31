@@ -7,3 +7,5 @@ const filmsRouter = (filmsRouter: Router): Router => {
   
   return filmsRouter;
 }
+
+export default filmsRouter;

@@ -1,4 +1,4 @@
-interface Film {
+export interface Film {
   Title: String;
   Year: String;
   imdbID: String;
@@ -6,7 +6,7 @@ interface Film {
   Poster: String;
 }
 
-interface OMDBSearchByTitleResponse {
+export interface OMDBSearchByTitleResponse {
   totalResults: String;
   Response: "True" | "False";
   Search: Array<Film>
